@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>Novo Contato</title>
+<link rel="icon" href="img/fone.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Criar Novo Contato</h1>
+
+	<form name="frmContato"action="insertContato">
+		<table>
+			<tr>
+				<td><input type="text" name="nome" placeholder="Nome:"
+					class="caixa1" /></td>
+			<tr>
+				<td><input type="text" name="fone" placeholder="Telefone:"
+					class="caixa2" /></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="email" placeholder="Email:"
+					class="caixa1" /></td>
+			</tr>
+
+		</table>
+		<input type="button" value="Adicionar" class="Botao1" onclick="validar()">
+
+	</form>
+<script src="scripts/validar.js"> </script>
+</body>
+</html>
